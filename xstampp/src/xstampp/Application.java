@@ -85,7 +85,6 @@ public class Application implements IApplication {
       }
 
     } catch (Exception exept){
-      exept.printStackTrace();
       logger.info(Messages.TheWorkspaceCannotBeChangedWhen + Messages.UsuallyTheIDEStarts);
     }
 
